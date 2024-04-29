@@ -63,7 +63,7 @@ def sync_folders(source_folder, replica_folder, log_file):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 56:
+    if len(sys.argv) != 5:
         print("Usage: python folders_sync.py <source_folder> <replica_folder> <log_file> <sync_interval>")
         sys.exit(1)
 
