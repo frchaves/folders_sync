@@ -6,8 +6,8 @@ It uses Pytest to test the program.
 
 ### Setup:
 
-- Run the program with ```python sync_folders.py <source_folder> <replica_folder> <log_file> <sync_interval>```. Sync_interval is in seconds.
-- For example ```python sync_folders.py test1 test2 folder_sync_logs 5```
+- Run the program with ```python folders_sync.py <source_folder> <replica_folder> <log_file> <sync_interval>```. Sync_interval is in seconds.
+- For example ```python folders_sync.py test1 test2 folder_sync_logs 5```
 
 ### Tests:
 
